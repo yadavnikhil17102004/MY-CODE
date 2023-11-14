@@ -1,0 +1,13 @@
+print('so now we are gonna some simple math')
+birth_year = input('your birth year :')
+birth_month = input('your birth month :')
+age_year = 2022 - int(birth_year)
+age_month = 12 - int(birth_month)
+print('.')
+print('..')
+print('...')
+print('thinking wait !')
+print('....')
+print(' you are ' + str(age_year) + ' years and ' + str(age_month) + ' months old ')
+
+print('thank you for using me !!! :')

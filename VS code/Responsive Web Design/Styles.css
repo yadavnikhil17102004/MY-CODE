@@ -1,0 +1,26 @@
+h1, h2{
+    text-align: center;
+    color: grey;
+}
+p { 
+  font-size: 15px;
+}
+/* comment here */
+body{
+  background-image:url("Cat site Resource/5172214.jpg");
+}
+
+#title{
+  width: 80%;
+  background-color: rgb(225, 152, 205);
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#cat_list{
+  background-color: aquamarine;
+}
+
+#cat_hate_list{
+  background-color: lightblue;
+}
