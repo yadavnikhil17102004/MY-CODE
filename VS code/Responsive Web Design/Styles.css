@@ -8,9 +8,15 @@ p {
 /* comment here */
 body{
   font-family:cursive;
-  background-image:url("Cat site Resource/5236199.jpg");
+  background-color: rgb(249, 232, 223);
+  /* background-image:url("Cat site Resource/5236199.jpg");*/
 }
-
+hr{
+  height:5px ;
+  background-color: pink;
+  border-color: brown;
+  }
+  
 #title{
   width: 80%;
   background-color: rgb(225, 152, 205);
@@ -37,17 +43,16 @@ body{
   margin-right: auto;
   width: 90%;
   border-radius: 10%;
+  max-width: 500px;
 }
 
 .item p {
   display: inline-block;
 }
-
 .flavor {
   text-align: left;
   width: 75%;
 }
-
 .price {
   text-align: right;
   width: 25%

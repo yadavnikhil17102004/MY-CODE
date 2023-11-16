@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Product</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles_1.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="#">Awesome Product</a>
+          <button class="navbar-toggler" type="button"
+          data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#pricing">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <header class="header-section">
+      <div class="container text-center">
+          <h1>Welcome to Awesome Product</h1>
+          <p>Discover the world's best product here.</p>
+          <a href="#pricing" class="btn btn-primary mt-3">Get Started</a>
+      </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+      <div class="container">
+          <div class="row">
+              <!-- Feature 1 -->
+              <div class="col-md-4">
+                  <h3>Feature One</h3>
+                  <p>Description of feature one.</p>
+              </div>
+              <!-- Feature 2 -->
+              <div class="col-md-4">
+                  <h3>Feature Two</h3>
+                  <p>Description of feature two.</p>
+              </div>
+              <!-- Feature 3 -->
+              <div class="col-md-4">
+                  <h3>Feature Three</h3>
+                  <p>Description of feature three.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-5 bg-light">
+      <div class="container">
+          <div class="row">
+              <!-- Pricing Plan 1 -->
+              <div class="col-md-4">
+                  <div class="card mb-4">
+                      <div class="card-header">
+                          <h3 class="my-0 font-weight-normal">Free</h3>
+                      </div>
+                      <div class="card-body">
+                          <h4 class="card-title pricing-card-title">$0
+                              <small class="text-muted">/ mo</small></h4>
+                          <ul class="list-unstyled mt-3 mb-4">
+                              <li>10 users included</li>
+                              <li>2 GB of storage</li>
+                              <!-- More features -->
+                          </ul>
+                          <button type="button"
+                          class="btn btn-lg btn-block
+                          btn-outline-primary">
+                          Sign up for free</button>
+                      </div>
+                  </div>
+              </div>
+              <!-- More pricing plans -->
+          </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+      <div class="container">
+          <h2>Contact Us</h2>
+          <form>
+              <div class="form-group">
+                  <label for="nameInput">Name</label>
+                  <input type="text" class="form-control"
+                  id="nameInput" placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                  <label for="emailInput">Email address</label>
+                  <input type="email" class="form-control"
+                  id="emailInput" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                  <label for="messageTextarea">Message</label>
+                  <textarea class="form-control"
+                  id="messageTextarea" rows="3"></textarea>
+              </div>
+              <button type="submit"
+              class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-muted py-5">
+      <div class="container">
+          <p class="float-right">
+              <a href="#">Back to top</a>
+          </p>
+          <p>Awesome Product &copy; 2023</p>
+      </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
